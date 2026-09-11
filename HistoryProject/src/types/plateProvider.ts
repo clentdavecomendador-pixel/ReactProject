@@ -14,3 +14,9 @@ export const byDateContext: PlateContext = {
     value: "22/08",
     description: "What happened on this day - Here you can enter a specific date to only get events that happened on this date"
 }
+
+export const sinceContext: PlateContext = {
+    label: "Since:",
+    value: "1947",
+    description: "What happened on this day - Here you can enter a specific year to get all the events that happened on this day, since that year."
+}

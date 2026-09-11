@@ -7,15 +7,20 @@ ${Reset}
 color: #C7BD8D;
 font-family: "Linden Hill", serif;
     section{
-        div{
+        #overallDiv{
             display: flex;
             flex-direction: column;
             text-align: center;
             padding: 2rem;
             background-color: #1F1F1F;
             border: 10px solid #695E48;
-            h1{
-                font-family: "LimeLight", sans-serif;
+            #forValue{
+                display: flex;
+                    h1{
+                        font-family: "LimeLight", sans-serif;
+                    }
+                }
+        
             }
         }
      background-image: url(${HeaderBackground});

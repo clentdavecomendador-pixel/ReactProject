@@ -6,6 +6,11 @@ export const useFetch = <T, >(url: string) => {
     const [error, setError] = useState<string | null>(null)
 
     useEffect(() => {
+        if (!url) {
+            setApiData(null)
+            setIsLoading(false)
+            return
+        }
         setIsLoading(true)
         setError(null)
 
