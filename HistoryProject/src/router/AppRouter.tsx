@@ -8,7 +8,7 @@ export const AppRouter = () => {
        <Routes>
             <Route index element={<Today />} />
             <Route path="/since" element={<Since />} />
-            <Route path="bydate" element={<ByDate />} />
+            <Route path="/bydate" element={<ByDate />} />
        </Routes>
     )
 }

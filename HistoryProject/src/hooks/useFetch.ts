@@ -14,8 +14,7 @@ export const useFetch = <T, >(url: string) => {
         setIsLoading(true)
         setError(null)
 
-
-        fetch(url)
+        fetch(url, { cache: "no-store" })
         .then(response =>
             response.ok
              ? response.json()
