@@ -1,7 +1,20 @@
+:root {
+    --background-color: #F8FAFC;
+    --text-color: #05173D;
+    --link-hover-color: #E9F4FD;
+}
+
+:root:has(body.dark-mode) {
+    --background-color: #111827;
+    --text-color: #E5E7EB;
+    --link-hover-color: #263449;
+}
+
 body{
     margin: 0rem;
     padding: 0 10rem;
     font-family: 'Inter', sans-serif;
-    background-color: #F8FAFC;
-    color: #05173D;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }

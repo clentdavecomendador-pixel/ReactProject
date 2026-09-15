@@ -14,11 +14,11 @@ align-items: center;
          display:flex;
             a{
              text-decoration: none;
-             color: #05173D;
+             color: var(--text-color);
              padding: 1rem;
                 &:hover, &.active{
                  color: #0E68ED;
-                 background-color:#E9F4FD;
+                 background-color: var(--link-hover-color);
                  border-radius: 2rem;
                 }
             }

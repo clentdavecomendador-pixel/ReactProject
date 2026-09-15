@@ -11,7 +11,7 @@ export const NavBar = () => {
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/countries">Countries</NavLink></li>
                 <li><NavLink to="/cities">Cities</NavLink></li>
-                <li><NavLink to="/places">Places</NavLink></li>
+                <li><NavLink to="/attractions">Attractions</NavLink></li>
                 <li><NavLink to="about">About</NavLink></li>
             </ul>
             <Settings />

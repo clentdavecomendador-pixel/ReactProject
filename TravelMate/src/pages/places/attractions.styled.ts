@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Reset } from "../../styles/resest";
 
-export const PlacesStyled = styled.section`
+export const AttractionStyled = styled.section`
 ${Reset}
 `
